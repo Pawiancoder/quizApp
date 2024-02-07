@@ -61,6 +61,16 @@ let questions = [
     },
 ]
 
+function showQuestion() {
+    let randomDecimal = Math.random();
+    let randomInt = Math.floor(randomDecimal * 10) + 1;
+    console.log(questions[randomInt]);
+    if (!questions[randomInt].done) {
+        console.log(questions[randomInt].question);
+        questions[randomInt].done = true;
+    }
+}
+
 function showResultField() {
     document.getElementById("result").hidden = false;
 }
