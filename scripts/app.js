@@ -10,3 +10,7 @@ let questions = [
         correctAnswer: 2
     }
 ]
+
+function showResultField() {
+    document.getElementById("result").hidden = false;
+}
