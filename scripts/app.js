@@ -30,7 +30,7 @@ let questions = [
         correctAnswer: [1]
     },
     {//7
-        question: "Welchen Knoten gibt es nicht (leider)?",
+        question: "Welchen Knoten gibt es nicht?",
         answers: ["Zimmermannsschlag", "Mastwurf", "Achterknoten", "Bienenstich"],
         correctAnswer: [3]
     },
@@ -38,6 +38,16 @@ let questions = [
         question: "Wer setzt beim Löschangriff (Löschgruppe) den Verteiler?",
         answers: ["Gruppenführer", "Angriffstrupp", "Melder", "Wassertrupp"],
         correctAnswer: [1]
+    },
+    {//9
+        question: "Worüber geht die Feuerwehr-Dienstvorschrift 500?",
+        answers: ["Leitern aufstellen", "Verwendung von Knoten", "ABC-Einsatz", "Tierrettung"],
+        correctAnswer: [2]
+    },
+    {//10
+        question: "Was gehört nicht zur der PSA?",
+        answers: ["Handschuhe", "Helm", "Feuerwehrschlauch", "Feuerwehrhaltegurt"],
+        correctAnswer: [2]
     },
 ]
 
